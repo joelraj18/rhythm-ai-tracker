@@ -1,6 +1,6 @@
 {
   "name": "rhythm-ai",
-  "homepage": "https://joelraj18.github.io/rhythm-ai-tracker", 
+  "homepage": "https://joelraj18.github.io/rhythm-ai-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,7 +42,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14"
   }
 }
-
