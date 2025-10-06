@@ -542,7 +542,7 @@ const RhythmAI = () => {
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
                   Rhythm.AI
                 </h1>
-                <p className="text-gray-600 text-sm">Welcome back, **{currentUser.name}** ({currentUser.email})</p>
+                <p className="text-gray-600 text-sm">Welcome back, {currentUser.name} ({currentUser.email})</p>
               </div>
             </div>
             
