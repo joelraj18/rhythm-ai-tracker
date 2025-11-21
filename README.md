@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Rhythm.AI | Neuro-Cognitive Productivity Engine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Version](https://img.shields.io/badge/version-2.0.0-emerald)
+![Tech](https://img.shields.io/badge/stack-React%20|%20Tailwind%20|%20Recharts-blue)
+![Focus](https://img.shields.io/badge/science-Circadian%20Biology-purple)
 
-## Available Scripts
+**Rhythm.AI** is a professional-grade productivity tracker that utilizes **Cognitive Load Theory** and **Circadian Rhythms** to predict, track, and optimize your mental performance. unlike standard to-do lists, Rhythm.AI treats your energy as a finite biological resource.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧠 The Science Behind The Code
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This application runs on a custom **Neuro-Probabilistic Algorithm** that calculates your "Probability of Success" for future tasks based on three biological factors:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1.  **Circadian Nadir & Peaks:**
+    * *Morning Cortisol Peak (8 AM - 11 AM):* The algorithm boosts probability scores.
+    * *Post-Prandial Dip (1 PM - 3 PM):* The algorithm applies a statistical penalty to focus scores.
+    * *Melatonin Onset (10 PM+):* Deep work probability decays rapidly.
 
-### `npm test`
+2.  **Homeostatic Sleep Pressure:**
+    * The system tracks "Allostatic Load." If you log high-intensity work (`Focus Level 5`) for 2+ hours, the predictive engine enforces a **Refractory Period**, lowering the probability of success for the next hour to prevent burnout.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.  **Ultradian Rhythms:**
+    * Optimized for 90-minute cycles. The "Neuro Tips" section provides protocols based on Andrew Huberman's research for managing these cycles.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚡️ Command Line Interface (CLI)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To reduce friction and maintain "Flow State," Rhythm.AI uses a fast-entry command syntax inspired by Vim/Terminal workflows.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Input Format:**
+`[Start]^[End]%[Activity]%f[1-5]e[1-5]`
 
-### `npm run eject`
+### Examples:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Command | Meaning |
+| :--- | :--- |
+| `6a^7a%Morning Protocol%f5e4` | **6:00 AM - 7:00 AM**: "Morning Protocol" (High Focus, High Energy) |
+| `8.5a^10a%Deep Work%f5e3` | **8:30 AM - 10:00 AM**: "Deep Work" (Auto-logs 1.5 hours) |
+| `2p^4p%Admin Tasks%f2e3` | **2:00 PM - 4:00 PM**: "Admin Tasks" (Low Focus, Moderate Energy) |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📊 Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* **Neuro-Probability Engine:** Real-time graph overlaying your actual performance vs. your biological predicted limit.
+* **Multi-Hour Range Parsing:** Log huge blocks of time (e.g., "8a^12p") in a single second.
+* **Decimal Time Support:** Precision logging for half-hour blocks (e.g., "6.5a" = 6:30 AM).
+* **Local Persistence:** Data is encrypted via local storage keys (Siloed by User Email).
+* **JSON Data Portability:** Full Export/Import capabilities for backup.
+* **Huberman Protocols:** Built-in library of science-backed protocols for alertness and sleep.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+* Node.js installed
+* npm (Node Package Manager)
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Clone the repository
+git clone [https://github.com/joelraj18/rhythm-ai-tracker.git](https://github.com/joelraj18/rhythm-ai-tracker.git)
 
-### Analyzing the Bundle Size
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Install Scientific Visualization Engines
+npm install recharts lucide-react
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Run the Neuro-Engine
+npm start
